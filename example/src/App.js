@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-stackoverflow-hook'
-import 'react-stackoverflow-hook/dist/index.css'
+import { StackOverflowProfile } from 'react-stackoverflow'
+import 'react-stackoverflow/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <StackOverflowProfile text='Creating StackOverflowProfile 😄' />
 }
 
 export default App

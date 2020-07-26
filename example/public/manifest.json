@@ -1,6 +1,6 @@
 {
-  "short_name": "react-stackoverflow-hook",
-  "name": "react-stackoverflow-hook",
+  "short_name": "react-stackoverflow",
+  "name": "react-stackoverflow",
   "icons": [
     {
       "src": "favicon.ico",

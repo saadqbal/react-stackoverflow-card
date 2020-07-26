@@ -1,10 +1,10 @@
 {
-  "name": "react-stackoverflow-hook",
+  "name": "react-stackoverflow",
   "version": "1.0.0",
   "description": "show your stackoverflow profile details as a badge in React",
   "author": "saadqbal",
   "license": "MIT",
-  "repository": "saadqbal/react-stackoverflow-hook",
+  "repository": "saadqbal/react-stackoverflow",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
