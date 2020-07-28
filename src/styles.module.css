@@ -13,6 +13,7 @@
   padding: 20px;
   box-shadow: 0 0 3px rgba(0,0,0,0.2);
   display: inline-block;
+  color: '#333'
 }
 
 .so_logo {
@@ -89,15 +90,26 @@
 }
 
 .so_badge_gold {
-  background-color: rgb(255, 205, 3);
+  background-color: #ffcc01;
+}
+.so_badge_wrapper .gold {
+  color: #ffcc01;
 }
 
 .so_badge_silver {
-  background-color: rgb(197, 197, 197);
+  background-color: #9a9c9f
+}
+
+.so_badge_wrapper .silver {
+  color: #9a9c9f
 }
 
 .so_badge_bronze {
-  background-color: rgb(204, 153, 102);
+  background-color: #ab825f;
+}
+
+.so_badge_wrapper .bronze {
+  color: #ab825f;
 }
 
 .so_profile_link {

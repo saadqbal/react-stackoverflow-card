@@ -38,17 +38,17 @@ export const StackOverflowProfile = ({ id, containerStyle }) => {
 
           <span className={styles.so_badge_wrapper}>
             <span className={`${styles.so_badge} ${styles.so_badge_gold}`} />
-            <span className={styles.so_badge_count}>{profile.badge_counts.gold}</span>
+            <span className={styles.gold}>{profile.badge_counts.gold}</span>
           </span>
 
           <span className={styles.so_badge_wrapper}>
             <span className={`${styles.so_badge} ${styles.so_badge_silver}`} />
-            <span className={styles.so_badge_count}>{profile.badge_counts.silver}</span>
+            <span className={styles.silver}>{profile.badge_counts.silver}</span>
           </span>
 
           <span className={styles.so_badge_wrapper}>
             <span className={`${styles.so_badge} ${styles.so_badge_bronze}`} />
-            <span className={styles.so_badge_count}>{profile.badge_counts.silver}</span>
+            <span className={styles.bronze}>{profile.badge_counts.bronze}</span>
           </span>
         </div>
       </div>
