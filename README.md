@@ -1,13 +1,13 @@
-# react-stackoverflow
+# react-stackoverflow-card
 
 > show your stackoverflow profile details as a badge in React
 
-[![NPM](https://img.shields.io/npm/v/react-stackoverflow.svg)](https://www.npmjs.com/package/react-stackoverflow) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-stackoverflow-card.svg)](https://www.npmjs.com/package/react-stackoverflow-card) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-stackoverflow
+npm install --save react-stackoverflow-card
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react-stackoverflow
 ```jsx
 import React from 'react'
 
-import { StackOverflowProfile } from 'react-stackoverflow'
-import 'react-stackoverflow/dist/index.css'
+import { StackOverflowProfile } from 'react-stackoverflow-card'
+import 'react-stackoverflow-card/dist/index.css'
 
 const App = () => {
   return <StackOverflowProfile id='840186' />
