@@ -40,6 +40,7 @@
 .so_display_name {
   margin: 0;
   text-align: center;
+  color: #666;
 }
 
 .so_content, .so_header, .so_footer {
