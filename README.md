@@ -13,16 +13,16 @@ npm install --save react-stackoverflow
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-stackoverflow'
+import { StackOverflowProfile } from 'react-stackoverflow'
 import 'react-stackoverflow/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <StackOverflowProfile id='840186' />
 }
+
+export default App
 ```
 
 ## License

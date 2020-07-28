@@ -4,7 +4,7 @@ import { StackOverflowProfile } from 'react-stackoverflow'
 import 'react-stackoverflow/dist/index.css'
 
 const App = () => {
-  return <StackOverflowProfile text='Creating StackOverflowProfile  😄' />
+  return <StackOverflowProfile id='840186' />
 }
 
 export default App

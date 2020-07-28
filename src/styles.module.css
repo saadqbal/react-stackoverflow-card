@@ -1,9 +1,109 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
+.stackoverflow {
+  margin: auto;
   padding: 0.5em;
-  border: 2px solid #000;
+}
+
+
+.so_card {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  border: 1px solid #efefef;
+  padding: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+.so_logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  
+}
+.so_logo img {
+    width: 20px;
+}
+
+.so_profile_picture_container {
+  text-align: center;
+}
+
+.so_profile_picture_container img {
+    display: inline-block;
+    width: 75px;
+    border-radius: 50%;
+    
+}
+.so_display_name {
+  margin: 0;
+  text-align: center;
+}
+
+.so_content, .so_header, .so_footer {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.so_content {
+  text-align: center;
+}
+
+.so_header {
+  padding-top: 0;
+}
+
+.so_footer {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.so_reputation {
   font-size: 2em;
   text-align: center;
+  margin: 0;
+  color: #f90
+}
+
+.so_reputation_label {
+  color: #777
+}
+
+.so_badges_label {
+  color: #666;
+  font-size: 0.8em;
+  margin-right: 10px;
+}
+
+.so_badge {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.so_badge_wrapper {
+  margin-right: 10px;
+}
+
+.so_badge_gold {
+  background-color: rgb(255, 205, 3);
+}
+
+.so_badge_silver {
+  background-color: rgb(197, 197, 197);
+}
+
+.so_badge_bronze {
+  background-color: rgb(204, 153, 102);
+}
+
+.so_profile_link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
