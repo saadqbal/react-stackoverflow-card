@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styles from './styles.module.css'
 
-export const StackOverflowProfile = ({ id }) => {
+export const StackOverflowProfile = ({ id, containerStyle }) => {
   const [profile, setProfile] = useState({})
   const [loading, setLoading] = useState(true)
   console.log(profile.profile_image)
@@ -15,9 +15,9 @@ export const StackOverflowProfile = ({ id }) => {
         setLoading(false)
       })
   }, [])
-  return <div className={styles.stackoverflow}>
-    {loading ? <div className={styles.so_card}>Loading</div>
-      : <div className={styles.so_card}>
+  return <div className={styles.stackoverflow} >
+    {loading ? <div className={styles.so_card} style={containerStyle}>Loading</div>
+      : <div className={styles.so_card} style={containerStyle}>
         <a href={profile.link} target='_blank' className={styles.so_profile_link} />
         <div className={styles.so_header}>
           <span className={styles.so_logo}>

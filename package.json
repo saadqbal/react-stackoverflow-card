@@ -1,6 +1,6 @@
 {
   "name": "react-stackoverflow-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "show your stackoverflow profile details as a badge in React",
   "author": "saadqbal",
   "license": "MIT",

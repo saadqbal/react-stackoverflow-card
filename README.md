@@ -19,7 +19,7 @@ import { StackOverflowProfile } from 'react-stackoverflow-card'
 import 'react-stackoverflow-card/dist/index.css'
 // id is your stackoverflow id which can be found in your profile link
 const App = () => {
-  return <StackOverflowProfile id='840186' />
+  return <StackOverflowProfile id='840186' containerStyle={{ backgroundColor: 'white' }} />
 }
 
 export default App
