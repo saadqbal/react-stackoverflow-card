@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { StackOverflowProfile } from 'react-stackoverflow'
-import 'react-stackoverflow/dist/index.css'
+import { StackOverflowProfile } from 'react-stackoverflow-card'
+import 'react-stackoverflow-card/dist/index.css'
 
 const App = () => {
   return <StackOverflowProfile id='840186' />

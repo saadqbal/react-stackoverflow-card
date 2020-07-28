@@ -1,6 +1,6 @@
 {
-  "short_name": "react-stackoverflow",
-  "name": "react-stackoverflow",
+  "short_name": "react-stackoverflow-card",
+  "name": "react-stackoverflow-card",
   "icons": [
     {
       "src": "favicon.ico",

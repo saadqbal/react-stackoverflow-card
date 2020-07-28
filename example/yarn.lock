@@ -7412,7 +7412,7 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "0.0.0"
   uid ""
 
-"react-stackoverflow@link:..":
+"react-stackoverflow-card@link:..":
   version "0.0.0"
   uid ""
 
